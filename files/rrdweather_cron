@@ -2,4 +2,4 @@
 #
 # You may need to change the user executing the script
 #
-*/5 * * * *     www-data /usr/share/rrdweather/rrdweather_cron.sh
+*/5 * * * *     www-data /usr/local/rrdweather/rrdweather_cron.sh
