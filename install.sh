@@ -20,13 +20,13 @@ else
 
 	# *.sh
 	
-	if [ ! -d /usr/share/rrdweather ]
+	if [ ! -d /usr/local/rrdweather ]
 	then
-		echo "Making directory /usr/share/rrdweather ..."
-		mkdir /usr/share/rrdweather
+		echo "Making directory /usr/local/rrdweather ..."
+		mkdir /usr/local/rrdweather
 	fi
 	echo "Copying script files..."
-	cp $CURDIR/files/*.sh /usr/share/rrdweather
+	cp $CURDIR/files/*.sh /usr/local/rrdweather
 	
 	# rrdweather.conf
 	
